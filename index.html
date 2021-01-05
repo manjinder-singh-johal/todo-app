@@ -9,16 +9,13 @@
 <body>
     <div class='container'>
         <div class='input-container'>
-            <form>
-                <input type='text' name='input' placeholder='Enter your to-do here...' />
-                <button>Add</button>
-            </form>
+            <input type='text' name='input' id='input' placeholder='Enter your to-do here...' />
+            <button onclick='addItem()'>Add</button>
+            <button onclick='clearAll()'>Clear all</button>
         </div>
         
         <div class='list-container'>
-            <div class='todo-item'>Make breakfast</div>
-            <div class='todo-item'>Make lunch</div>
-            <div class='todo-item'>Make dinner</div>
+           <div id='list'></div>
         </div>
     </div>
 </body>
