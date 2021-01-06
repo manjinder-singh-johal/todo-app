@@ -4,21 +4,19 @@
     font-size: 36px;
 }
 
-/*.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    margin: 20px;
+}
+
+.container {
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
-.input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.item-1 {
+    flex-grow: 1;
 }
-
-.list-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
